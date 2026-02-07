@@ -1,0 +1,16 @@
+{
+  "name": "tg-img-relay-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram helper bot: extract still frames from stickers/GIFs and forward to a relay chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test:convert": "node scripts/test-convert.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "sharp": "^0.33.5",
+    "telegraf": "^4.16.3"
+  }
+}
